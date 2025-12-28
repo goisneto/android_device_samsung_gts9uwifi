@@ -1,1 +1,1 @@
-pogo.list = EF-DX715:EF-DX710:EF-DX725:EF-DX720:Neos
+pogo.list = EF-DX715:EF-DX910:EF-DX725:EF-DX720:Neos

@@ -17,7 +17,7 @@ $(call inherit-product, device/samsung/gts9uwifi/device.mk)
 PRODUCT_DEVICE := gts9uwifi
 PRODUCT_NAME := lineage_gts9uwifi
 PRODUCT_BRAND := samsung
-PRODUCT_MODEL := SM-X710
+PRODUCT_MODEL := SM-X910
 PRODUCT_MANUFACTURER := samsung
 
 ## S Pen
@@ -26,6 +26,6 @@ TARGET_HAVE_SPEN := true
 PRODUCT_GMS_CLIENTID_BASE := android-samsung-ss
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    BuildDesc=$(call normalize-path-list,"gts9uwifixx-user 14 UP1A.231005.007 X710XXU4BXHB release-keys")
+    BuildDesc=$(call normalize-path-list,"gts9uwifixx-user 14 UP1A.231005.007 X910XXU4BXHB release-keys")
 
-BUILD_FINGERPRINT := samsung/gts9uwifixx/gts9uwifi:14/UP1A.231005.007/X710XXU4BXHB:user/release-keys
+BUILD_FINGERPRINT := samsung/gts9uwifixx/gts9uwifi:14/UP1A.231005.007/X910XXU4BXHB:user/release-keys
