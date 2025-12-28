@@ -5,6 +5,6 @@
 //
 
 runtime_resource_overlay {
-    name: "SystemUIResGts9wifi",
+    name: "SystemUIResGts9uwifi",
     device_specific: true,
 }

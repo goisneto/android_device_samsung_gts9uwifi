@@ -1,4 +1,4 @@
 runtime_resource_overlay {
-    name: "ApertureResGts9wifi",
+    name: "ApertureResGts9uwifi",
     product_specific: true
 }

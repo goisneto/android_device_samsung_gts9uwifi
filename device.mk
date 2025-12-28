@@ -24,7 +24,7 @@ PRODUCT_DEFAULT_PROPERTY_OVERRIDES += \
 
 # Init
 PRODUCT_PACKAGES += \
-    init.gts9wifi.rc
+    init.gts9uwifi.rc
 
 # Namespaces
 PRODUCT_SOONG_NAMESPACES += \
@@ -32,10 +32,10 @@ PRODUCT_SOONG_NAMESPACES += \
 
 # Overlays
 PRODUCT_PACKAGES += \
-    FrameworksResGts9wifi \
-    SystemUIResGts9wifi \
-    SettingsResGts9wifi \
-    ApertureResGts9wifi
+    FrameworksResGts9uwifi \
+    SystemUIResGts9uwifi \
+    SettingsResGts9uwifi \
+    ApertureResGts9uwifi
 
 # WiFi firmware symlinks
 PRODUCT_PACKAGES += \
@@ -59,4 +59,4 @@ $(call soong_config_set,samsung_udfps,dim_layer_zorder,0x20000001u)
 $(call inherit-product, device/samsung/sm8550-common/common.mk)
 
 # Inherit from the proprietary files makefile.
-$(call inherit-product, vendor/samsung/gts9wifi/gts9wifi-vendor.mk)
+$(call inherit-product, vendor/samsung/gts9uwifi/gts9uwifi-vendor.mk)

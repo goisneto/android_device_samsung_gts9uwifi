@@ -5,6 +5,6 @@
 //
 
 runtime_resource_overlay {
-    name: "FrameworksResGts9wifi",
-    device_specific: true,
+    name: "SettingsResGts9uwifi",
+    vendor: true,
 }

@@ -10,16 +10,16 @@ include device/samsung/sm8550-common/BoardConfigCommon.mk
 # Tablet
 TARGET_IS_TABLET := true
 
-DEVICE_PATH := device/samsung/gts9wifi
+DEVICE_PATH := device/samsung/gts9uwifi
 
 # Assert
-TARGET_OTA_ASSERT_DEVICE := gts9wifi
+TARGET_OTA_ASSERT_DEVICE := gts9uwifi
 
 # Display
 TARGET_SCREEN_DENSITY := 350
 
 # Kernel
-TARGET_KERNEL_CONFIG := gts9wifi_defconfig
+TARGET_KERNEL_CONFIG := gts9uwifi_defconfig
 
 # Kernel Modules
 BOARD_RECOVERY_RAMDISK_KERNEL_MODULES_LOAD := $(strip $(shell cat $(DEVICE_PATH)/modules.load.recovery))

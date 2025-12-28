@@ -32,7 +32,7 @@ lib_fixups: lib_fixups_user_type = {
 }
 
 module = ExtractUtilsModule(
-    'gts9wifi',
+    'gts9uwifi',
     'samsung',
     lib_fixups=lib_fixups,
     namespace_imports=namespace_imports,
