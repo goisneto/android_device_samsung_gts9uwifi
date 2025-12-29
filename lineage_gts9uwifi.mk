@@ -26,6 +26,6 @@ TARGET_HAVE_SPEN := true
 PRODUCT_GMS_CLIENTID_BASE := android-samsung-ss
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    BuildDesc=$(call normalize-path-list,"gts9uwifixx-user 14 UP1A.231005.007 X910XXU4BXHB release-keys")
+    BuildDesc=$(call normalize-path-list,"gts9uwifixx-user 16 BP2A.250605.031 X910XXU5DYI7 release-keys")
 
-BUILD_FINGERPRINT := samsung/gts9uwifixx/gts9uwifi:14/UP1A.231005.007/X910XXU4BXHB:user/release-keys
+BUILD_FINGERPRINT := samsung/gts9uwifixx/gts9uwifi:16/BP2A.250605.031.A3/X910XXU5DYI7:user/release-keys
